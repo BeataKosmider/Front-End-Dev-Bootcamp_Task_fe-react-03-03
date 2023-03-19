@@ -1,12 +1,16 @@
-import React from 'react';
+import React from "react";
 
-function UniversalInput({inputType}) {
+function UniversalInput({ inputType }) {
   const getType = () => {
-    if (inputType !== 'number' && inputType !== 'text' && inputType !== 'email') {
-      return 'range';
+    if (
+      inputType !== "number" &&
+      inputType !== "text" &&
+      inputType !== "email"
+    ) {
+      return "range";
     } else return inputType;
-  }
-  return <input type={getType()} />
+  };
+  return <input type={getType()} />;
 }
 
 export default UniversalInput;
