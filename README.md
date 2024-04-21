@@ -1,3 +1,10 @@
+Spraw aby UniversalInput sprawdzał, czy przekazany prop inputType (String) ma jedną z poniższych wartości:
+
+text
+number
+email
+Domyślną wartością inputType powinien być "range".
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
