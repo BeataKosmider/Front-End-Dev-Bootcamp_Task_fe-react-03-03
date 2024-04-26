@@ -1,3 +1,5 @@
+Task performed during Front-End Developer Bootcamp
+
 Spraw aby UniversalInput sprawdzał, czy przekazany prop inputType (String) ma jedną z poniższych wartości:
 
 text
